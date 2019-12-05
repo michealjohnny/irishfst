@@ -13,6 +13,6 @@ tok-gael.fst: xfst-tok-gael.script
 	@echo
 	@echo " <<< Tokeniser >>>"
 	@echo
-	@xfst -f xfst-tok-gael.script
-#	@foma -f xfst-tok-gael.script
+#	@xfst -f xfst-tok-gael.script
+	@foma -f xfst-tok-gael.script
 
